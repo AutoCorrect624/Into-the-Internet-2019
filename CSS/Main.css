@@ -1,0 +1,313 @@
+* {margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+
+div.nav {background: #40b2ff;
+	background-repeat: no-repeat;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+	width: 100%;}
+	
+div.nav, a.active, a, a:hover{padding: 13px;}
+	
+a.active {background-color: black;
+	color: white;}
+	
+a:active {color: black;}
+	
+a:hover {background-color: #afafaf;
+	-webkit-transition: background-color 0.5s;}
+	
+a {color: black;
+	text-decoration: none;
+	font-size: 22px;
+	-webkit-transition: background-color 0.5s;}
+	
+footer.footer {background-color: black;
+	color: white;
+	font-family: Helvetica;
+	padding: 15px;}
+	
+div.nav_f {background: #40b2ff;
+	background-repeat: no-repeat;
+	font-weight: 700;
+	text-align: center;
+	font-family: Helvetica;
+	width: 100%;
+	padding: 12.5px;
+	margin-bottom: 10px;}
+
+/* __________________________________Home Page__________________________________ */
+	
+header.homeH {background-image: url('../Assets/headerbackgroundH.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 50px;
+	border-style: solid;
+	border-width: 20px 1px;
+	border-color: black;}
+
+img.logo {width: 20%;
+	display: block;
+	margin: 0 auto;}
+	
+p.introH {padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #4d4d4d;
+	font-family: Helvetica;
+	background-color: #f2f2f2;}
+
+div.sectionH {margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+    border: 2px solid black;
+	border-radius: 12px;
+	line-height: 1.5em;
+	font-family: Helvetica;}
+
+h1.firsth1 {text-align: center;
+	padding-top: 20px;}
+
+div.homep {margin: 20px;
+	padding: 10px;
+	text-indent: 30px;}
+	
+img.imgH {width: 30%;
+	float: left;
+	padding: 20px;}
+
+img.imgH2 {width: 20%;
+	float: right;
+	padding: 30px;}
+	
+p.footer {text-align: center;}
+
+
+/* __________________________________Origins__________________________________ */
+
+header.homeO {background-image: url('../Assets/headerbackgroundO.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 65px;
+	border-style: solid;
+	border-width: 20px 1px;
+	border-color: black;}
+	
+h1.titleO {font-size: 50px;
+	color: white;
+	font-family: Bungee Shade;
+	padding: 15px;
+	text-align: center;}
+	
+p.introO {padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #4d4d4d;
+	font-family: Helvetica;
+	background-color: #f2f2f2;}
+	
+div.sectionO {margin: 20px;
+	padding: 20px;
+	text-indent: 30px;
+	font-size: 20px;
+    border: 2px solid black;
+	border-radius: 12px;
+	line-height: 1.5em;
+	font-family: Helvetica;}
+
+h3.headingO {text-align: center;
+	font-size: 35px;
+	padding-top: 5px;
+	padding-bottom: 20px;}
+	
+img.imgO {width: 40%;
+	padding: 20px;
+	float: left;}
+	
+img.imgO2 {width: 40%;
+	padding: 20px;
+	float: right;}
+	
+/* __________________________________People__________________________________ */
+
+header.homeP {background-image: url('../Assets/headerbackgroundP.png');
+	background-size: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 50px;
+	border-style: solid;
+	border-width: 20px 1px;
+	border-color: black;}
+	
+h1.titleP {font-size: 50px;
+	color: gray;
+	font-family: Bungee Shade;
+	padding: 15px;
+	text-align: center;}
+
+p.introP {text-align: center;
+	font-size: 20px;
+	color: #4d4d4d;
+	font-family: Helvetica;
+	background-color: #f2f2f2;
+	padding: 10px;}
+
+table {border-collapse: collapse;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	table-layout: fixed;
+	font-family: Helvetica;}
+	
+th, td {padding: 15px;
+	border-right: 2px solid #bfbfbf;
+	border-left: 2px solid #bfbfbf;
+	font-size: 20px;}
+	
+th {background-color: #4db8ff;
+	color: white;
+	border-radius: 20px;
+	font-size: 25px;}
+	
+td:hover {background-color: #e6f5ff;}
+
+img.imgP {padding-top: 10px;
+	width: 129px;
+	height: 181px;}
+
+img.imgP2 {padding-top: 10px;
+	width: 147px;
+	height: 183px;}
+	
+img.imgP3 {padding-top: 10px;
+	width: 147px;
+	height: 220px;}
+
+/* __________________________________Technology Growth__________________________________ */
+
+header.homeTG {background-image: url('../Assets/headerbackgroundTG.jpg');
+	background-size: 130%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 50px;
+	border-style: solid;
+	border-width: 20px 1px;
+	border-color: black;}
+	
+h1.titleTG {font-size: 40px;
+	color: white;
+	padding-bottom: 25px;
+	font-family: Bungee Shade;
+	text-align: center;}
+	
+p.introTG {text-align: center;
+	font-size: 20px;
+	color: #4d4d4d;
+	font-family: Helvetica;
+	background-color: #f2f2f2;
+	padding: 10px;}
+	
+div.sectionTG {margin: 20px;
+	padding: 20px;
+	text-indent: 30px;
+	font-size: 20px;
+    border: 2px solid black;
+	border-radius: 12px;
+	line-height: 1.5em;
+	font-family: Helvetica;}
+
+h3.headingTG {text-align: center;
+	font-size: 35px;
+	padding-top: 5px;
+	padding-bottom: 20px;}
+
+img.imgT {display:block;
+margin-left: auto;
+margin-right: auto;}
+	
+	
+
+/* __________________________________Dangers__________________________________ */
+
+header.homeD {background-image: url('../Assets/headerbackgroundD.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 30px;
+	border-style: solid;
+	border-width: 20px 1px;
+	border-color: black;}
+
+h1.titleD {font-size: 50px;
+	color: white;
+	font-family: Bungee Shade;
+	padding: 10px;
+	text-align: center;}
+	
+p.introD {text-align: center;
+	font-size: 20px;
+	color: #4d4d4d;
+	font-family: Helvetica;
+	background-color: #f2f2f2;
+	padding: 10px;}
+	
+div.sectionD {margin: 20px;
+	padding: 20px;
+	text-indent: 30px;
+	font-size: 20px;
+    border: 2px solid black;
+	border-radius: 12px;
+	line-height: 1.5em;
+	font-family: Helvetica;}
+	
+h3.headingD {text-align: center;
+	font-size: 35px;
+	padding-top: 5px;
+	padding-bottom: 20px;}
+	
+img.imgD {float: right;
+	width: 25%;
+	padding: 20px;}
+	
+img.imgD2 {width: 20%;
+	padding: 20px;
+	float: left;}
+	
+/* __________________________________Sources__________________________________ */
+
+header.homeS {background-image: url('../Assets/headerbackgroundS2.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 50px;	
+	border-style: solid;
+	border-width: 20px 1px;
+	border-color: black;}
+	
+h1.title {font-size: 60px;
+	color: white;
+	font-family: Bungee Shade;
+	padding: 15px;
+	padding-bottom: 50px;
+	text-align: center;}
+	
+p.introS {text-align: center;
+	font-size: 20px;
+	color: #4d4d4d;
+	font-family: Helvetica;
+	background-color: #f2f2f2;
+	padding: 10px;}
+	
+div.sectionS {margin: 20px;
+	padding: 20px;
+	font-size: 20px;
+    border: 2px solid black;
+	border-radius: 12px;
+	line-height: 1.5em;
+font-family: Helvetica;}
